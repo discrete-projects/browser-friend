@@ -1,2 +1,2 @@
 # browser-friend
-Chrome Extension
+Browser Friend is a Chrome Extension
