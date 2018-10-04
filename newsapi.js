@@ -24,7 +24,6 @@ const randomize = () => {
     renderContent(renderContentArr);
 };
 
-
 const getTimeOfDay = () => {
     let hour = new Date().getHours();
     const timeOfDayText = document.querySelector('#timeOfDay');
@@ -38,14 +37,12 @@ const getTimeOfDay = () => {
     }
 };
 
-
 const renderContent = (contentArray) => {
     let first = document.querySelector('#firstCol');
     let second = document.querySelector('#secondCol');
     let third = document.querySelector('#thirdCol');
     let contentArraySplit = contentArray.length/3;
     getTimeOfDay();
-
 
     for (let i = 0; i < contentArray.length; i++) {
         if (i < contentArraySplit) {
@@ -59,10 +56,6 @@ const renderContent = (contentArray) => {
         }
     }
 };
-
-// const randomizeArticleSize = () => {
-//     document.querySelectorAll
-// };
 
 const updateWeather = (temp) => {
     console.log(temp)

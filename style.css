@@ -13,10 +13,10 @@ body {
 header {
     width: 100%;
     max-width: 1600px;
-    height: 30px;
+    height: 75px;
     display: grid;
     grid-template-columns: 60% 40%; 
-    padding: 10px 0;
+    padding: 10px 36px 0;
     margin: 0 auto;
     line-height: 30px;
 }
@@ -25,9 +25,9 @@ header > .logo {
     background-image: url('./images/logo.png');
     background-repeat: no-repeat;
     background-size: 100% auto;
-    background-position: center;
+    background-position: center left;
     width: 160px;
-    height:54px; 
+    height:75px; 
     margin: 0;
 }
 
@@ -39,7 +39,7 @@ header >  .welcome-txt {
     font-size: 15px;
     display: inline-block;
     text-align: right;
-    line-height: 54px;
+    line-height: 75px;
     display: inline-block;
 }
 
@@ -52,7 +52,7 @@ main {
     max-width: 16000px;
     height: calc(100vh - 50px);
     position: relative;
-    top: 30px;
+    top: 5px;
     padding: 0 25px;
     display: grid;
     grid-template-columns: repeat(3, 33.33%);
